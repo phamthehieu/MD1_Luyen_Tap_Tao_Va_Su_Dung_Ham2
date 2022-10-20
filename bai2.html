@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<script>
+  function area(radius) {
+    let getarea = Math.pow(radius, 2) * 3.14;
+    return getarea;
+  }
+  function perimeter(radius) {
+    let getperimeter = (radius * 2) * 3.14;
+    return getperimeter;
+  }
+  let radius = +prompt("Nhập bán kính đường tròn");
+  document.write(" Diện tích hình tròn " + " = " + area(radius) + "<br>");
+  document.write("  Chu vi hình tròn " + " = " + perimeter(radius) + "<br>");
+</script>
+</body>
+</html>
